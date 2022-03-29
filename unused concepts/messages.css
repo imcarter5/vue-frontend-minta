@@ -1,0 +1,620 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #111111;
+    color:whitesmoke;   
+}
+
+a
+{
+    color: black;
+}
+
+/*HEADER*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+i {
+	margin-right: 10px;
+}
+
+.navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background-color: #2a2b38;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');  
+    color: black!important;
+    border-bottom: 2px solid rgb(170, 130, 255);
+    box-shadow: 0 8px 24px 0 rgba(186, 167, 255, 0.2);
+    padding: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar a{
+    color: black!important;
+}
+
+.navbar-brand
+{
+      font-size: 2rem; 
+}
+
+.srch
+{
+    margin-left: 10rem;
+    height: 30px;
+}
+
+
+.logo
+{
+    filter: none;
+}
+
+.navLogo{    
+    width: 5rem;
+    background-color:rgba(255, 0, 0, 0);
+    border: 0px;  
+    border-radius: 4px;
+    margin-right: 0px;
+}
+
+.navLogo:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 2px rgba(186, 167, 255, 0.2); 
+}
+
+.navbar a
+{
+    color: black;
+    text-shadow: rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,
+             rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px;
+    font-size: 1.1rem;
+}
+
+.navbar a:hover {   
+    transition: all 0.3s ease-in-out; 
+    text-shadow: rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px,
+             rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px;
+}
+
+#navbarSupportedContent {
+    color: black;
+    text-shadow: rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,
+             rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px;
+    border-radius: 8px;
+    text-decoration: none;      
+    font-weight: 400;    
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    margin-left: 0px;
+}
+
+.dropdown-menu {
+  background-color: #1f2029;
+  border: 1px solid #414141;
+}
+
+.dropdown-item:hover {
+  transition: all 0.3s ease-in-out; 
+  background-color: #292a35;
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+#navbar-toggler-icon { 
+  color: aliceblue;
+  background-color: aqua;
+}
+
+#overlay{
+    opacity: 1;
+}
+
+#src {
+    width: 180px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    border: none;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-right: 20px;
+}
+
+#src:focus,
+#src:active {
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+}
+
+#src:focus {
+    transition: all 0.3s ease-in-out; 
+    box-shadow: rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px,
+             rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px;
+}
+
+#srcbtn {    
+    width: 80px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background-color: rgb(170, 130, 255);
+    color: rgb(80, 40, 168);
+    box-shadow: 0 8px 24px 0 rgba(186, 167, 255, 0.2);
+    text-transform: none;  
+}
+
+#srcbtn:focus{  
+    background-color: rgb(80, 40, 168);
+    color: rgb(170, 130, 255);
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+}
+
+#srcbtn:hover {
+    transition: all 0.3s ease-in-out; 
+    background-color: rgb(80, 40, 168);
+    color: rgb(170, 130, 255);
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+}
+
+#togg {
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: none;
+    color: transparent;
+    border: none;
+    border: 1px solid rgba(170, 130, 255, 0);
+}
+
+form img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: 2px solid rgb(170, 130, 255);
+}
+
+/*MESSAGES*/
+body {
+    
+  background-color: #1f2029;
+  }
+  
+  .container {
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    padding:0;
+    background-color: #404255;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    height: 700px;
+    border-radius: 6px;
+  }
+  
+  /* ===== MENU ===== */
+  /*.menu {
+    float: left;
+    height: 700px;;
+    width: 70px;
+    background: #4768b5;
+    background: -webkit-linear-gradient(#4768b5, #35488e);
+    background: -o-linear-gradient(#4768b5, #35488e);
+    background: -moz-linear-gradient(#4768b5, #35488e);
+    background: linear-gradient(#4768b5, #35488e);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+  }
+  
+  .menu .items {
+    list-style:none;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .menu .items .item {
+    height: 70px;
+    border-bottom: 1px solid #6780cc;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #9fb5ef;
+    font-size: 17pt;
+  }
+  
+  .menu .items .item-active {
+    background-color:#5172c3;
+    color: #FFF;
+  }
+  
+  .menu .items .item:hover {
+    cursor: pointer;
+    background-color: #4f6ebd;
+    color: #cfe5ff;
+  }*/
+  
+  /* === CONVERSATIONS === */
+  .discussions {
+    width: 35%;
+    height: 700px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.20);
+    overflow: hidden;
+    border-top: 10px solid #2a2b38;
+    border-bottom: 10px solid #2a2b38;
+    background-color: #2a2b38;
+    display: inline-block;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .discussions .discussion {
+    width: 100%;
+    height: 85px;
+    background-color: #2a2b38;
+    border-bottom: solid 1px rgb(170, 130, 255);
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .discussions .search {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #E0E0E0;
+  }
+
+  .discussions .discussion:hover {
+    transition: all 0.3s ease-in-out; 
+    background-color: #343444;
+    box-shadow: 0 8px 24px 0 rgba(186, 167, 255, 0.2);
+  }
+
+  .discussions i {
+    margin-top: 7px;
+    padding: 12px;
+    padding-right: 15px;
+  }
+  
+  /*.discussions .search .searchbar {
+    height: 40px;
+    background-color: #FFF;
+    width: 70%;
+    padding: 0 20px;
+    border-radius: 50px;
+    border: 1px solid #EEEEEE;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+  }*/
+
+  .discussions .search .searchbar {
+    width: 180px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    border: none;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-right: 20px;
+}
+
+#src {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.discussions .search .searchbar:focus,
+.discussions .search .searchbar:active {
+  transition: all 0.3s ease-in-out;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  /*background-color: rgb(27, 27, 27);
+  box-shadow: 2px 2px 6px rgb(170, 130, 255);*/
+}
+
+.discussions .search .searchbar:focus {
+    transition: all 0.3s ease-in-out; 
+    box-shadow: rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px,
+             rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px,   rgb(170, 130, 255) 0px 0px 3px;
+}
+  
+  
+  /*.discussions .search .searchbar *::-webkit-input-placeholder {
+      color: #E0E0E0;
+  }
+  .discussions .search .searchbar input *:-moz-placeholder {
+      color: #E0E0E0;
+  }
+  .discussions .search .searchbar input *::-moz-placeholder {
+      color: #E0E0E0;
+  }
+  .discussions .search .searchbar input *:-ms-input-placeholder {
+      color: #E0E0E0;
+  }*/
+  
+  .discussions .message-active {
+    /*width: 98.5%;*/
+    height: 90px;
+    background-color: rgb(170, 130, 255);
+    border-bottom: solid 2px rgb(80, 40, 168);
+  }
+
+  .discussions .message-active:hover {
+    transition: all 0.3s ease-in-out; 
+    background-color: rgb(80, 40, 168);
+  }  
+  
+  .discussions .discussion .photo {
+      margin-left:20px;
+      display: flex;
+      width: 30px;
+      height: 30px;
+      background: #E6E7ED;
+      border-radius: 50px;
+      border-radius: 50px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .online {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 13px;
+    height: 13px;
+    background-color: #8BC34A;
+    border-radius: 13px;    
+  }
+  
+  .desc-contact {
+    height: 43px;
+    width:50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .discussions .discussion .name {
+    margin: 0 0 0 20px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 11pt;
+    color:whitesmoke;
+    text-shadow: 2px 2px rgba(170, 130, 255, 0.849);   
+  }
+  
+  .discussions .discussion .message {
+    margin: 6px 0 0 20px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 9pt;
+    color: #c4c3ca;
+  }
+  
+  .timer {
+    /*margin-left: 15%;*/
+    font-family:'Open Sans', sans-serif;
+    font-size: 11px;
+    padding: 3px 8px;
+    color: #BBB;
+    margin-top: 60px;
+    /*background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;*/
+  }
+  
+  .chat {
+    width: 65%;
+  }
+  
+  .header-chat {    
+    background-color: #2a2b38;
+    height: 90px;
+    box-shadow: 0px 3px 2px rgba(0,0,0,0.100);
+    display:flex;
+    align-items: center;
+    border-top-right-radius: 6px;
+  }
+  
+  .chat .header-chat .icon {
+    margin-left: 30px;
+    color:#515151;
+    font-size: 14pt;
+  }
+  
+  .chat .header-chat .name {
+    margin: 0 0 0 20px;
+    /*text-transform: uppercase;*/
+    font-family:'Montserrat', sans-serif;
+    /*font-size: 13pt;
+    color:#515151;*/
+
+    color: black;
+    text-shadow: rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,
+             rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px,   rgb(170, 130, 255) 0px 0px 2px;
+    font-size: 1.1rem;
+  }
+
+  .chat .header-chat .name:hover {
+    transition: all 0.3s ease-in-out; 
+    text-shadow: rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px,
+             rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px,   rgb(170, 130, 255) 0px 0px 5px;
+  }
+  
+  .chat .header-chat .right {
+    position: absolute;
+    right: 40px;
+  }
+  
+  .chat .messages-chat {
+    padding: 25px 35px;
+  }
+  
+  .chat .messages-chat .message {
+    display:flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .chat .messages-chat .message .photo {
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: #E6E7ED;
+      border-radius: 50px;
+      border-radius: 50px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .chat .messages-chat .text {
+    margin: 0 35px;
+    background-color: #1f2029;
+    padding: 15px;
+    border-radius: 12px;
+  }
+  
+  .text-only {
+    margin-left: 45px;
+  }
+  
+  .time {
+    font-size: 10px;
+    color:lightgrey;
+    margin-bottom:10px;
+    margin-left: 85px;
+  }
+  
+  .response-time {
+    float: right;
+    margin-right: 40px !important;
+  }
+  
+  .response {
+    float: right;
+    margin-right: 0px !important;
+    margin-left:auto; /* flexbox alignment rule */
+  }
+  
+  .response .text {
+    background-color: rgb(170, 130, 255) !important;
+  }
+  
+  .footer-chat {      
+    width: calc(65% - 66px);
+    height: 80px;
+    display:flex;
+    align-items: center;
+    position:absolute;
+    bottom: 0;
+    background-color: transparent;
+    /*order-top: 2px solid #EEE;*/    
+  }
+  
+  /*.chat .footer-chat .icon {
+    margin-left: 30px;
+    color:#C0C0C0;
+    font-size: 14pt;
+  }*/
+  
+  .chat .footer-chat .send {    
+    background-color: rgb(170, 130, 255);
+    position: absolute;
+    right: 50px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 50px;
+    font-size: 14pt;
+    color: rgb(80, 40, 168);
+    box-shadow: 0 8px 24px 0 rgba(186, 167, 255, 0.2);
+  }
+
+  .chat .footer-chat .send:hover {
+    transition: all 0.3s ease-in-out; 
+    background-color: rgb(80, 40, 168);
+    color: rgb(170, 130, 255);
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  }
+  
+  .chat .footer-chat .name {
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    font-size: 13pt;
+    color:#515151;
+  }
+  
+  .chat .footer-chat .right {
+    position: absolute;
+    right: 40px;
+  }
+  
+  .write-message {    
+    border:none !important;
+    width:60%;
+    height: 50px;
+    margin-left: 10px;
+    padding: 10px;
+    outline: none;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    border: none;
+    border-radius: 6px;
+  }
+
+  .write-message:focus,
+  .write-message:hover {
+    transition: all 0.3s ease-in-out; 
+    background-color: #2a2b38;
+  }
+  
+  .footer-chat *::-webkit-input-placeholder {    
+    color: #C0C0C0;
+    font-size: 13pt;
+  }
+  .footer-chat input *:-moz-placeholder {    
+    color: #C0C0C0;
+    font-size: 13pt;
+  }
+  .footer-chat input *::-moz-placeholder {
+    color: #C0C0C0;
+    font-size: 13pt;
+    margin-left:5px;
+  }
+  .footer-chat input *:-ms-input-placeholder {
+    color: #C0C0C0;
+    font-size: 13pt;
+  }
+  
+  .clickable {
+    cursor: pointer;
+  }
+

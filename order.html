@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/order.css">
+    <link rel="icon" href="https://media.discordapp.net/attachments/631917182141333505/950448676281679912/Dollarsign_purple.png?width=610&height=610">
+    
+    <title>vendIgo</title>
+
+</head>
+
+<body>
+
+    <!--Navbar section-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">        
+          <span href="#" class="navbar-brand">   
+            <a href="index.html"><img src="https://media.discordapp.net/attachments/631917182141333505/950448726135177258/vendigologo7.png?width=606&height=610" class="img-fluid navLogo img-thumbnail" alt="BidBuyer.com" width="120px"></a>             
+               <button id="togg" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                 <img class="fa fa-align-center" src="img/menu-bar-navigation.png" width="70px">
+              </button>            
+              
+          </span>                
+        <div class="collapse navbar-collapse" id="navbarText">             
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="add-product.html">Sell</a>
+              </li>                                                
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Browse</a>
+                  <div class="dropdown-menu dropdown-menu-end">
+                      <a href="browse.html" class="dropdown-item">All categories</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">Footwear</a>
+                      <a href="#" class="dropdown-item">Clothing</a>   
+                      <a href="#" class="dropdown-item">Accessories</a>                                                                                         
+                  </div>
+              </li>                              
+            </ul>                  
+        </div>                    
+
+        <form class="d-flex">
+          <img src="https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_640.png">
+          <div class="dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+            <div class="dropdown-menu dropdown-menu-end">
+                <a href="login.html" class="dropdown-item">Log In</a>
+                <a href="profile.html" class="dropdown-item">Profile</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Log out</a>
+            </div>
+          </div>      
+          
+          <div class="dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">🛒</a>
+            <div class="dropdown-menu dropdown-menu-end">
+                <a href="login.html" class="dropdown-item">Nike Air Jordan 1 High - "Court Purple"</a>
+                <a href="profile.html" class="dropdown-item">Nike Air Jordan 1 High - "Obsidian"</a>
+                <a href="profile.html" class="dropdown-item">Nike Air Jordan 1 High - "Fearless"</a>
+                <div class="dropdown-divider"></div>
+                <a href="order.html" class="dropdown-item">View Cart</a>
+            </div>
+
+          </div>              
+        </form>          
+      </div>
+      </div>
+    </nav>  
+    
+    <!--ORDER-->    
+    <div class="container" id="upcoming">
+      <h1 class="my-4 text-center">Cart</h1>
+  
+      <div class="row">
+          <div class="col-md-4 text-center">
+              <a href="#">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="img/lisitingplaceholder1.jpg" alt="ItemImage">                    
+                  
+              </a>
+          </div>
+  
+          <div class="col-md-8">
+              <h3>Nike Air Jordan 1 High - "Court Purple"</h3>  
+              <p class="price">450$</p>            
+              <a id="upcmgbtn" class="btn btn-primary" href="#">Remove</a>
+          </div>
+      </div>
+  
+      <div class="row">
+          <div class="col-md-4 text-center">
+              <a href="#">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="img/lisitingplaceholder2.jpg" alt="ItemImage">                  
+              </a>
+          </div>
+  
+          <div class="col-md-8">
+              <h3>Nike Air Jordan 1 High - "Obsidian"</h3>             
+              <p class="price">450$</p>
+              <a id="upcmgbtn" class="btn btn-primary" href="#">Remove</a>
+          </div>
+      </div>        
+  
+      <div class="row">
+          <div class="col-md-4 text-center">
+              <a href="#">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="img/lisitingplaceholder3.jpg" alt="ItemImage">                  
+              </a>
+          </div>
+  
+          <div class="col-md-8">
+              <h3>Nike Air Jordan 1 High - "Fearless"</h3>                  
+              <p class="price">450$</p>
+              <a id="upcmgbtn" class="btn btn-primary" href="#">Remove</a>
+          </div>      
+      </div>       
+
+      <a href="shipping.html" id="btn" class="btn mt-4">Purchase</a>
+  </div>
+    
+
+    <!-- FOOTER -->
+    <footer id="footer" class="p-5 text-center position-relative">       
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h2>vendIgo</h2>
+      
+              <p class="text-center">
+                vendIgo is an online shopping service. This is where you can be both a seller and a buyer at the same time.               
+              </p>
+            </div>
+            <div id="box1" class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5>Trending Now</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!">Shoes</a>
+                </li>
+                <li>
+                  <a href="#!">Socks</a>
+                </li>
+                <li>
+                  <a href="#!">Masks</a>
+                </li>
+                <li>
+                  <a href="#!">Hoodies</a>
+                </li>
+              </ul>
+            </div>
+
+            <div id="box2" class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="mb-0">Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Browse</a>
+                </li>
+                <li>
+                  <a href="#">Login</a>
+                </li>
+                <li>
+                  <a href="#">About</a>
+                </li>
+              </ul>
+            </div>   
+          </div>
+        </div>
+        <div id="footerbox" class="text-center p-3">
+            &copy; 2021 Copyright:
+          <a href="https://vendigo.com/">vendIgo.com</a>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>

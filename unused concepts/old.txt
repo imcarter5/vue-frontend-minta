@@ -1,0 +1,84 @@
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="img/Bid-Buy1.png" class="img-fluid navLogo img-thumbnail" alt="BidBuyer.com" height="50px"></a>                    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sell</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>       
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+            </li>
+            <li>                
+                <input id="src" class="srch form-control" type="search" placeholder="Type here..." aria-label="Search">                
+            </li>
+            <li>
+                <button id="srcbtn" class="btn-main btn-success" type="submit">Search</button>            
+            </li>
+          </ul>          
+            </div>
+        </div>   
+    </nav> 
+
+--------------------------------------
+
+    <div class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+            <div id="categor" class="col-md-12 d-flex justify-content-center">
+              <ul class="list-group mt-5 text-white">
+                  <li class="list-group-item d-flex justify-content-between align-content-center">
+                      <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                          <div class="ml-2">
+                              <h6 class="mb-0">Shoes</h6>
+                              <div class="about"> <span>22 results</span></div>
+                          </div>
+                      </div>                
+                  </li>
+              </ul>
+              <ul class="list-group mt-5 text-white">
+                  <li class="list-group-item d-flex justify-content-between align-content-center">
+                      <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                          <div class="ml-2">
+                              <h6 class="mb-0">Socks</h6>
+                              <div class="about"> <span>62 results</span></div>
+                          </div>
+                      </div>                
+                  </li>
+              </ul>
+              <ul class="list-group mt-5 text-white">
+                  <li class="list-group-item d-flex justify-content-between align-content-center">
+                      <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                          <div class="ml-2">
+                              <h6 class="mb-0">Masks</h6>
+                              <div class="about"> <span>82 results</span></div>
+                          </div>
+                      </div>                
+                  </li>
+              </ul>
+              <ul class="list-group mt-5 text-white">
+                  <li class="list-group-item d-flex justify-content-between align-content-center">
+                      <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                          <div class="ml-2">
+                              <h6 class="mb-0">Hoodies</h6>
+                              <div class="about"> <span>182 results</span></div>
+                          </div>
+                      </div>                
+                  </li>       
+              </ul>          
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+--------------------------------------
+

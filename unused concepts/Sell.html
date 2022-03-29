@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/sell.css">
+    <link rel="icon" href="img/ico.png">
+    
+    <title>Bid-Buy</title>
+
+</head>
+
+<body>
+
+    <!--Navbar section-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">        
+            <span href="#" class="navbar-brand">
+                <a href="index.html"><img src="img/Bid-Buy1.png" class="img-fluid navLogo img-thumbnail" alt="BidBuyer.com" height="50px"></a>
+                <button id="togg" class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><img class="fa fa-align-center" src="img/toggle.png" width="40"></span>
+                </button>  
+            </span>                
+          <div class="collapse navbar-collapse" id="navbarText">             
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="Sell.html">Sell</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="browse.html">Browse</a>
+                </li>       
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+              </ul>                  
+          </div>
+          <form class="d-flex">
+            <input id="src" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="srcbtn" class="btn btn-outline-success" type="submit">Search</button>
+          </form>                                            
+          <br>  
+        </div>
+      </nav>
+    
+    <!--Listing window-->
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div id="sell" class="card">
+                <div class="card-body p-5 text-center">
+      
+                  <div class="mb-md-5 mt-md-4 pb-5">
+      
+                    <h2 class="fw-bold mb-2">List item</h2>
+                    <p class="text-white-50 mb-5">Please enter your email and password!</p>
+      
+                    <div class="form-outline form-white mb-4">
+                        <label class="form-label" for="typeEmailX">Email</label>
+                        <input type="email" id="typeEmailX" class="form-control form-control-lg" />                      
+                    </div>
+      
+                    <div class="form-outline form-white mb-4">
+                        <label class="form-label" for="typePasswordX">Password</label>
+                        <input type="password" id="typePasswordX" class="form-control form-control-lg" />                         
+                    </div>
+      
+                    <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+      
+                    <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+      
+                    <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                      <a href="#!" class="text-white"><img src="https://img.icons8.com/color/48/000000/google-logo.png"/></a>
+                      <a href="#!" class="text-white"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+                      <a href="#!" class="text-white"><img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a>
+                    </div>
+      
+                  </div>
+      
+                  <div>
+                    <p class="mb-0">Don't have an account? <a id="signup" href="#!" class="fw-bold">Sign Up</a></p>
+                  </div>      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <!--Some categories  ToDo:Random categories with Vue-->
+    <div id="categor" class="container d-flex justify-content-center">
+        <ul class="list-group mt-5 text-white">
+            <li class="list-group-item d-flex justify-content-between align-content-center">
+                <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                    <div class="ml-2">
+                        <h6 class="mb-0">Technology</h6>
+                        <div class="about"> <span>22 results</span></div>
+                    </div>
+                </div>                
+            </li>
+        </ul>
+        <ul class="list-group mt-5 text-white">
+            <li class="list-group-item d-flex justify-content-between align-content-center">
+                <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                    <div class="ml-2">
+                        <h6 class="mb-0">Clothing</h6>
+                        <div class="about"> <span>62 results</span></div>
+                    </div>
+                </div>                
+            </li>
+        </ul>
+        <ul class="list-group mt-5 text-white">
+            <li class="list-group-item d-flex justify-content-between align-content-center">
+                <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                    <div class="ml-2">
+                        <h6 class="mb-0">Home</h6>
+                        <div class="about"> <span>82 results</span></div>
+                    </div>
+                </div>                
+            </li>
+        </ul>
+        <ul class="list-group mt-5 text-white">
+            <li class="list-group-item d-flex justify-content-between align-content-center">
+                <div class="d-flex flex-row"> <img src="https://img.icons8.com/color/100/000000/folder-invoices.png" width="40" />
+                    <div class="ml-2">
+                        <h6 class="mb-0">Business</h6>
+                        <div class="about"> <span>182 results</span></div>
+                    </div>
+                </div>                
+            </li>       
+        </ul>
+    </div>    
+
+
+    <!-- FOOTER -->
+    <footer id="footer" class="p-5 text-center position-relative">       
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h2>About us</h2>
+      
+              <p>
+                Bid-Buy is an online auction service, where you can be both a seller and a buyer at the same time.
+                The auctions happen in real time via live stream video.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5>Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="mb-0">Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>            
+          </div>
+        </div>
+        <div id="footerbox" class="text-center p-3" style="background-color: black;">
+            &copy; 2021 Copyright:
+          <a href="https://BidBuyer.com/">BidBuyer.com</a>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
